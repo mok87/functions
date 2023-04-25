@@ -31,7 +31,6 @@ const sumOfRefill = (pricePerRefill,refills,coupon) =>{
     }
 }
 console.log("your grand total is $65",sumOfRefill(timmy.pricePerRefill,timmy.refills, timmy.coupon))
-
 console.log("your grand total is $37.5",sumOfRefill(sarah.pricePerRefill,sarah.refills, sarah.coupon))
 
 console.log("your grand total is $102.5",sumOfRefill(rocky.pricePerRefill,rocky.refills, rocky.coupon))
